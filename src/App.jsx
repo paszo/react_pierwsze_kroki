@@ -5,8 +5,8 @@ import Countdown from './Countdown';
 import EditEvent from "./EditEvent";
 
 class App extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             now: {
                 hour: new Date().getHours(),
@@ -41,8 +41,8 @@ class App extends Component {
     }
 
     componentDidMount() {
-        const storateEvents = JSON.parse(localStorage.getItem("events")) || [];
-        this.setState({events: storateEvents});
+        const storageEvents = JSON.parse(localStorage.getItem("events")) || [];
+        this.setState({events: storageEvents});
         const intervalId = setInterval(this.timer, 1000);
         this.setState({intervalId: intervalId});
     }
@@ -88,8 +88,9 @@ class App extends Component {
     }
 
     handleEditInit(id) {
+        debugger
         this.setState(prevState => ({
-            editedEvent: {...prevState.events[id]}
+            editedEvent: {...prevState.events.find(el => el.id === id)}
         }))
     }
 
