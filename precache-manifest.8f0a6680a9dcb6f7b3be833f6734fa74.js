@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29cea058e80cf21b4fd2a81ae7331450",
+    "revision": "c4f0e48a5e4835c3f0e2cd579aefa241",
     "url": "/react_pierwsze_kroki/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_pierwsze_kroki/static/css/2.7e4ac3b1.chunk.css"
   },
   {
-    "revision": "193084c6bb382ce2eeb4",
+    "revision": "5614cf028a35aace38f0",
     "url": "/react_pierwsze_kroki/static/css/main.4c8e7aae.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_pierwsze_kroki/static/js/2.bbccb973.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "193084c6bb382ce2eeb4",
-    "url": "/react_pierwsze_kroki/static/js/main.8d9e8ea7.chunk.js"
+    "revision": "5614cf028a35aace38f0",
+    "url": "/react_pierwsze_kroki/static/js/main.ca4939ab.chunk.js"
   },
   {
     "revision": "5efb79f310dfed6768c1",
